@@ -1,0 +1,22 @@
+
+.praimery_nav {
+    display: block;
+    border:solid 3px blue;
+    width: 100%;
+
+
+}
+
+.praimery_nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.praimery_nav ul li{
+    font-size: 30px;
+    display: inline-block;
+    border: solid 7px green;
+    padding: 12px;
+
+
+}
