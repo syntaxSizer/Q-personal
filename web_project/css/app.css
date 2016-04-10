@@ -1,11 +1,36 @@
-body {
+.menu a {
+    color: rgba(30, 16, 47, 0.6);
+}
+.menu a:hover {
+    color: #359baf;
+}
+.menu-text {
+    font-size: 2em;
+    color: #359baf;
+}
+.placeholder {
+    display: block;
+    border: solid 3px transparent;
+    width: 400px;
+    height: 300px;
+    ;
+}
+.heads {
+    text-shadow: 0 4px 10px #3a177c;
+    color: #100a0a;
+}
+.one {
     background-image: url(../images/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.menu a {
-    color: rgba(0, 0, 0, 0.6);
+.bgc {
+    background-color: #359baf;
 }
-.menu a:hover {
-    color: #000000;
+.align-right a {
+    color: white;
+}
+
+.align-right a:hover {
+    color: black;
 }
