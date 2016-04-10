@@ -1,0 +1,11 @@
+body {
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu a {
+    color: rgba(0, 0, 0, 0.6);
+}
+.menu a:hover {
+    color: #000000;
+}
