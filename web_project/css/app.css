@@ -27,10 +27,15 @@
 .bgc {
     background-color: #359baf;
 }
-.align-right a {
+.menu-centered a {
     color: white;
+    font-size: 1.4em;
 }
-
-.align-right a:hover {
+.menu-centered a:hover {
     color: black;
+}
+.btn-default {
+    border-radius: 3px;
+    background-color: #0a0808;
+    color: white;
 }
