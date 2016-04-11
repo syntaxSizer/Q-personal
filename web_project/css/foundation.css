@@ -2024,7 +2024,9 @@ select {
 
 .menu {
   margin: 0;
-  list-style-type: none; }
+  list-style-type: none;
+
+}
   .menu > li {
     display: table-cell;
     vertical-align: middle; }
