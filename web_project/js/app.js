@@ -1,3 +1,5 @@
+//scroll effect on navigating to other pages
+
 $(document).foundation()
 $('a[href^="#"]').on('click', function (event) {
 

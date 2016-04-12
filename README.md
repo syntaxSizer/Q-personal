@@ -1,5 +1,5 @@
 #PERSONAL WEBSITE
 
-This is a personal Website
+This is a personal Website repository
 
 
