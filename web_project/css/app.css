@@ -1,6 +1,20 @@
-body {
-/*    max-width: 100%;*/
-    width: 100%;
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.hero {
+    background-color: #999;
+    padding: 80px 0px;
+    height: 600px;
+}
+.main {
+    padding: 80px 0px;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    max-width:
 }
 .menu a {
     color: rgba(30, 16, 47, 0.6);
@@ -26,10 +40,11 @@ body {
     background-image: url(../images/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: auto;
-    width: 100%;
-    max-width: 1350px;
-    max-height: 1350px;
+    margin: 0 auto;
+    height: 660px;
+    /*    width: 100%;*/
+    /*    max-width: 1350px;*/
+    /*    max-height: 1350px;*/
 }
 .bgc {
     background-color: #359baf;
@@ -52,13 +67,18 @@ body {
 .row {
     margin: 0;
     padding: 0;
-
+    max-width: 100%;
+}
+.row h1 {
+    text-align: center;
+    color: #FFF;
 }
 .menu li {
     margin: auto;
 }
 .button.success {
     background-color: #222;
+    width: 160px;
 }
 .input {
     border-radius: 3px;
@@ -160,9 +180,12 @@ h4 span {
 .anime {
     max-width: 100%;
 }
-
-
-
-
-
-
+.icons a {
+    text-align: center;
+}
+#prtofolio {
+    background-color: #222;
+}
+#msg {
+    height: 180px;
+}
