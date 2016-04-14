@@ -93,7 +93,7 @@ body {
 }
 .holder {
     position: relative;
-    width: 450px;
+    width: 100%;
     height: 440px;
     display: block;
     max-width: 1350px;
@@ -185,7 +185,6 @@ h4 span {
 }
 #prtofolio {
     background-color: #222;
-
 }
 #msg {
     height: 180px;
