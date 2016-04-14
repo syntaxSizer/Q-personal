@@ -18,6 +18,7 @@
     background-color: rgba(25, 23, 20, 0.24);
     position: fixed;
     z-index: 1;
+    border-bottom-right-radius: 30px;
 }
 .menu a {
     color: white;
@@ -96,6 +97,7 @@ body {
     background: #ededed;
     max-width: 1350px;
     height: auto;
+    margin: auto;
 }
 .holder {
     position: relative;
@@ -207,4 +209,8 @@ h4 span {
 }
 .media a:hover {
     color: #222;
+}
+.texting {
+    margin-top: 300px;
+    text-align: right;
 }
