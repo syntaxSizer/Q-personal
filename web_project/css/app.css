@@ -214,3 +214,25 @@ h4 span {
     margin-top: 300px;
     text-align: right;
 }
+
+.about {
+    margin-top: 250px;
+    text-align: center;
+/*/ margin-left: 12px;*/*/
+    color: #222;
+
+}
+.about li{
+    font-size: 1.5em;
+}
+
+
+
+
+
+.ul {
+    list-style: none;
+
+}
+
+
