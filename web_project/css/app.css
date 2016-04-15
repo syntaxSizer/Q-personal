@@ -1,7 +1,7 @@
 .wrap {
     width: 90%;
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1350px;
 }
 .hero {
     background-color: #999;
@@ -197,20 +197,20 @@ h4 span {
 #msg {
     height: 180px;
 }
-#media {
+.media {
     margin: 0;
 }
-#media li {
+.media li {
     display: inline-block;
     list-style: none;
     font-size: 2em;
 }
-#media a {
+.media a {
     color: white;
     padding: 18px;
     text-align: center;
 }
-#media a:hover {
+.media a:hover {
     color: #222;
 }
 .texting {
