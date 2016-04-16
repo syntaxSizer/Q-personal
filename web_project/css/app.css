@@ -59,7 +59,7 @@
     font-size: 1.4em;
 }
 .menu-centered a:hover {
-    color: black;
+    color: #359BAF;
 }
 .btn-default {
     border-radius: 3px;
@@ -235,4 +235,23 @@ span {
 span {
     color: #359BAF;
     font-size: 1.4em;
+}
+.menu-centered li {
+    padding: 12px;
+    list-style: none;
+    display: inline-block;
+}
+.menu-centered {
+    position: fixed;
+    z-index: 1;
+}
+.name h1 {
+    font-size: 5em;
+}
+.name h2 {
+    font-size: 3em;
+}
+.name {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.21);
 }
