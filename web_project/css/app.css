@@ -242,6 +242,7 @@ span {
     display: inline-block;
 }
 .menu-centered {
+    background: rgba(0, 0, 0, 0.21);
     position: fixed;
     z-index: 1;
 }
@@ -250,6 +251,7 @@ span {
 }
 .name h2 {
     font-size: 3em;
+    color: #FFF;
 }
 .name {
     text-align: center;
