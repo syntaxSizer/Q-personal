@@ -59,6 +59,7 @@
     font-size: 1.4em;
 }
 .menu-centered a:hover {
+    transition: 2s;
     color: #359BAF;
 }
 .btn-default {
@@ -211,6 +212,7 @@ h4 span {
     text-align: center;
 }
 .media a:hover {
+    transition: 2s;
     color: #222;
 }
 .texting {
@@ -256,4 +258,12 @@ span {
 .name {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.21);
+}
+.links a {
+    color: white;
+    font-size: 2em;
+}
+.links a:hover {
+    transition: 2s;
+    color: #359BAF;
 }
