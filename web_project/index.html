@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="js/app.js">
+
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -165,8 +166,8 @@
 
                 <h1> Let's work together.</h1>
                 <br/>
-                <form action="https://formspree.io/kakuma4never@gmail.com" method="POST">
-
+                <!--                <form action="https://formspree.io/kakuma4never@gmail.com" method="POST">-->
+                <form action="mailer.php" method="POST">
 
                     <fieldset class="register-group">
 
@@ -177,7 +178,7 @@
                         <label>
                             <input class="input" type="email" name="email" placeholder="Email address" required placeholder="EMAIL">
                         </label>
-                        <textarea type="text" id="msg" class="input" placeholder="MASSEGE"></textarea>
+                        <textarea type="text" id="msg" name="comment" class="input" placeholder="MASSEGE"></textarea>
 
                     </fieldset>
 
