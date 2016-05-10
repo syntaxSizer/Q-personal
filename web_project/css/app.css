@@ -356,16 +356,16 @@ h1 {
     font-size: 13.5px;
 }
 .accordion ul li:nth-child(1) {
-    background-image: url("http://michael-ferry.com/assets/accordion1.jpg");
+    background-image: url("../images/Brugerpi.png");
 }
 .accordion ul li:nth-child(2) {
-    background-image: url("http://michael-ferry.com/assets/accordion2.jpg");
+    background-image: url("../images/code-revolution.png");
 }
 .accordion ul li:nth-child(3) {
-    background-image: url("http://michael-ferry.com/assets/accordion3.jpg");
+    background-image: url("../images/E2.png");
 }
 .accordion ul li:nth-child(4) {
-    background-image: url("http://michael-ferry.com/assets/accordion4.jpg");
+    background-image: url("../images/");
 }
 .accordion ul li:nth-child(5) {
     background-image: url("http://michael-ferry.com/assets/accordion5.jpg");
@@ -377,7 +377,7 @@ h1 {
     width: 8%;
 }
 .accordion ul:hover li:hover {
-    width: 60%;
+    width: 100%;
 }
 .accordion ul:hover li:hover a {
     background: rgba(0, 0, 0, 0.4);
