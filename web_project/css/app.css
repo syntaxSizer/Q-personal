@@ -267,3 +267,11 @@ span {
     transition: 2s;
     color: #359BAF;
 }
+.confirmstion {
+    padding: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 2em;
+    color: #fff;
+    background-color: #359baf;
+}
