@@ -289,7 +289,7 @@ h1 {
 .accordion {
     width: 100%;
     max-width: 1080px;
-    height: 250px;
+    height: 500px;
     overflow: hidden;
     margin: 50px auto;
 }
@@ -305,7 +305,7 @@ h1 {
     vertical-align: bottom;
     position: relative;
     width: 16.666%;
-    height: 250px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center center;
     transition: all 500ms ease;
