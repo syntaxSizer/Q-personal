@@ -220,7 +220,7 @@ h4 span {
     text-align: right;
 }
 .about {
-    margin-top: 250px;
+/*    margin-top: 250px;*/
     text-align: center;
     /*/ margin-left: 12px;*/
     */ color: #222;
@@ -406,7 +406,7 @@ h1 {
         transition: none;
     }
 }
-.about {
+/*.about {*/
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
