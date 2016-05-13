@@ -54,6 +54,10 @@
     padding-bottom: 20px;
     text-align: center;
 }
+
+.bgc h1{
+    color: #fff;
+}
 .menu-centered a {
     color: white;
     font-size: 1.4em;
@@ -220,7 +224,8 @@ h4 span {
     text-align: right;
 }
 .about {
-/*    margin-top: 250px;*/
+
+    padding: 90px;
     text-align: center;
     /*/ margin-left: 12px;*/
     */ color: #222;
@@ -418,4 +423,10 @@ h1 {
 }
 .about a:hover {
     text-decoration: underline;
+}
+
+.color {
+      background-color: #359BAF;
+    color: #fff;
+    font-size: 2em;
 }
