@@ -202,3 +202,12 @@ footer {
 footer a {
     display: block;
 }
+
+.menu a{
+    color: #fff;
+
+}
+.menu a:hover{
+    transition: 1s;
+    color: #3c3737;
+}
