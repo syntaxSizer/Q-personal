@@ -58,6 +58,10 @@ body {
 .bg3 {
     background-color: #f4f1f0;
 }
+.bg3 h3{
+    font-size: 2em;
+    color: #222;
+}
 .bg4 {
     background-color: #ff8000;
 }
