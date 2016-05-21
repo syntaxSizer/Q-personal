@@ -71,7 +71,7 @@ NAV
 
 .head-pad {
     padding-top: 150px;
-    padding-bottom: 440px;
+    padding-bottom: 150px;
 }
 .pad-1 {
     padding-top: 50px;
@@ -122,8 +122,9 @@ NAV
 
 h1 {
     font-size: 50px;
-    color: white;
+    color: #fff;
     font-weight: lighter;
+    font-family: Ubuntu;
 }
 h2 {
     font-size: 47px;
@@ -145,9 +146,9 @@ h4 {
 }
 h5 {
     font-size: 32px;
-    color: #ff8000;
+    color: #222;
     font-family: Ubuntu;
-    font-weight: bolder;
+    font-weight: lighter;
     letter-spacing: 3px;
 }
 h6 {
@@ -208,12 +209,19 @@ footer {
 footer a {
     display: block;
 }
+.top-bar {
+    background: #0F0F0F;
+}
+.top-bar-left .menu {
+    background-color: #0F0F0F;
+}
 .menu a {
     color: #fff;
+    font-family: Ubuntu;
 }
 .menu a:hover {
     transition: 1s;
-    color: #3c3737;
+    color:#363030;
 }
 .row {
     /*    max-width: 1350px;*/
@@ -315,4 +323,12 @@ body {
 .media li {
     padding: 5px;
     display: inline;
+}
+.diamond img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+.toop {
+    color: #fff;
 }
