@@ -121,38 +121,38 @@ NAV
 /*fonts*/
 
 h1 {
-    font-size: 50px;
+    /*    font-size: 50px;*/
     color: #fff;
     font-weight: lighter;
     font-family: Ubuntu;
 }
 h2 {
-    font-size: 47px;
+    /*    font-size: 47px;*/
     font-family: Tangerine, Ubuntu;
     color: #222;
     font-weight: lighter;
 }
 h3 {
-    font-size: 16px;
+    /*    font-size: 16px;*/
     color: black;
     font-family: Ubuntu;
     font-weight: ;
 }
 h4 {
-    font-size: 22px;
+    /*    font-size: 22px;*/
     color: black;
     font-family: Ubuntu;
     font-weight: lighter;
 }
 h5 {
-    font-size: 32px;
+    /*    font-size: 32px;*/
     color: #222;
     font-family: Ubuntu;
     font-weight: lighter;
     letter-spacing: 3px;
 }
 h6 {
-    font-size: 18px;
+    /*    font-size: 18px;*/
     color: black;
     font-family: Ubuntu;
     font-weight: lighter;
@@ -243,7 +243,7 @@ portfolio
     position: relative;
     /*    float: left;*/
     overflow: hidden;
-    /*    margin: 10px 1%;*/
+    margin: 10px 1%;
     min-width: 230px;
     max-width: 315px;
     width: 100%;
@@ -338,7 +338,6 @@ body {
 .success {
     background-color: #FF8000;
     padding: 14px;
-    width: 14%;
 }
 .success:hover {
     background-color: #fff;
