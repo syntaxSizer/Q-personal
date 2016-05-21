@@ -233,9 +233,9 @@ portfolio
 .snip1484 {
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
-    float: left;
+    /*    float: left;*/
     overflow: hidden;
-    margin: 10px 1%;
+    /*    margin: 10px 1%;*/
     min-width: 230px;
     max-width: 315px;
     width: 100%;
@@ -307,9 +307,6 @@ portfolio
 
 /* Demo purposes only */
 
-
-/*body {*/
-
-background-color: #212121;
-
+body {
+    background-color: #212121;
 }
