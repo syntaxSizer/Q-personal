@@ -221,7 +221,7 @@ footer a {
 }
 .menu a:hover {
     transition: 1s;
-    color:#363030;
+    color: #363030;
 }
 .row {
     /*    max-width: 1350px;*/
@@ -324,6 +324,9 @@ body {
     padding: 5px;
     display: inline;
 }
+.media a {
+    font-size: 1.7em;
+}
 .diamond img {
     border-radius: 50%;
     width: 50%;
@@ -331,4 +334,13 @@ body {
 }
 .toop {
     color: #fff;
+}
+.success {
+    background-color: #FF8000;
+    padding: 14px;
+    width: 14%;
+}
+.success:hover {
+    background-color: #fff;
+    color: #222;
 }
