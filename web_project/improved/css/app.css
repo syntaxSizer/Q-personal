@@ -325,7 +325,12 @@ body {
     display: inline;
 }
 .media a {
-    font-size: 1.7em;
+    font-size: 1.9em;
+    color: #212121;
+}
+.media a:hover {
+    transition: 1s;
+    color: #FFA500;
 }
 .diamond img {
     border-radius: 50%;
@@ -335,11 +340,23 @@ body {
 .toop {
     color: #fff;
 }
+.button {
+    float: right;
+    font-size: 1.2em;
+    border-radius: 4%;
+    width: 24%;
+}
 .success {
-    background-color: #FF8000;
+    transition: 1s;
+    background-color: #F98C2E;
     padding: 14px;
 }
 .success:hover {
+    transition: 1s;
     background-color: #fff;
     color: #222;
+    border-color: #F98C2E;
+}
+.cont {
+    padding: 50px;
 }
