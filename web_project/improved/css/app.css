@@ -14,10 +14,12 @@ NAV
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500);
 @import url(fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin);
-@import url(http://fonts.googleapis.com/css?family=Tangerine);
 
 /*navigation bar*/
 
+body {
+    max-width: 1350px;
+}
 .navbar {
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, 0.84);
@@ -28,8 +30,8 @@ NAV
 
 /* background */
 
-body {
-    background: url(http://i1272.photobucket.com/albums/y399/ash_marie2/computer-918678_zpsnea2qnrg.jpg) no-repeat center center fixed;
+.one {
+    background: url(https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ebe2a039b5ac7f82559a7d0597872111) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -202,12 +204,18 @@ footer {
 footer a {
     display: block;
 }
-
-.menu a{
+.menu a {
     color: #fff;
-
 }
-.menu a:hover{
+.menu a:hover {
     transition: 1s;
     color: #3c3737;
+}
+.row {
+    max-width: 1350px;
+}
+.column.small-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
 }
