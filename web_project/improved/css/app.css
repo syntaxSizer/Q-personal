@@ -213,7 +213,8 @@ footer a {
     background: #0F0F0F;
 }
 .top-bar-left .menu {
-    background-color: #0F0F0F;
+        background-color: rgba(15, 15, 15, 0.21);
+    position: fixed;
 }
 .menu a {
     color: #fff;
