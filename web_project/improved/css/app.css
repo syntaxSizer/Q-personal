@@ -241,13 +241,13 @@ portfolio
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Cardo);
 .snip1484 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: ubuntu, sans-serif;
     position: relative;
     /*    float: left;*/
     overflow: hidden;
     margin: 10px 1%;
     min-width: 230px;
-    max-width: 315px;
+    max-width: 515px;
     width: 100%;
     color: #ffffff;
     text-align: center;
@@ -361,4 +361,8 @@ body {
 }
 .cont {
     padding: 50px;
+}
+
+figcaption a {
+    color: #fff;
 }
