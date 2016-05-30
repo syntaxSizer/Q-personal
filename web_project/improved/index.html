@@ -29,7 +29,6 @@
 
         ga('create', 'UA-75707264-3', 'auto');
         ga('send', 'pageview');
-
     </script>
 
 </head>
@@ -39,16 +38,15 @@
 
     <!--HOME LANDING PAGE-->
     <div class="row">
-        <div id="home" class="top-bar">
+        <div id="home" class="top-bar ">
             <div class="top-bar-left">
 
-                <ul class="menu">
+                <ul class="menu ">
 
                     <li><a href="#home">HOME</a></li>
-                    <li><a href="#A">ABOUT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
                     <li><a href="#services">SKILLS</a></li>
                     <li><a href="#port">PORTFOLIO</a></li>
-
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
 
@@ -68,7 +66,7 @@
         </div>
         <!--header wrapper-->
     </div>
-    </div>
+
     <!--END HOME-->
 
     <!--ABOUT PAGE -->
@@ -76,8 +74,8 @@
         <div class="column small-12 small-centered large-10">
             <div class="row">&nbsp;</div>
             <div class="row">&nbsp;</div>
-            <div class="row">&nbsp;</div>
-            <h3 id="A">ABOUT ME↓</h3>
+            <div class="row">&nbsp;</div><div class="row">&nbsp;</div><div class="row">&nbsp;</div><div class="row">&nbsp;</div>
+            <h3>ABOUT ME↓</h3>
             <div class="container-fluid line-separator"></div>
             <!--line -->
             <div class="row ">
@@ -86,10 +84,10 @@
                 </div>
             </div>
             <div class="row">&nbsp;</div>
-            <div class="row text-center small-centered columns ">
+            <div class="row text-center small-centered columns">
                 <div class="column small-12 large-4">
                     <!--col 1 -->
-                    <h5> DREAM </h6>
+                    <h5> DREAM </h5>
                     <img src="http://i1272.photobucket.com/albums/y399/ash_marie2/1461570583_clean-code-window_zpsmbqnkl1w.png" alt="Bulb">
                     <h6>I can translate your ideas or vision into something real that everyone can see. </h6>
                 </div>
@@ -115,9 +113,10 @@
     <!-- END ABOUT -->
 
     <!-- SERVICES PAGE -->
-    <div id="services" class="row text-center bg3">
-        <div class="row">&nbsp;</div>
-        <div class="row">&nbsp;</div>
+         <div id="services" class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div><div class="row">&nbsp;</div>
+    <div  class="row text-center bg3">
+
         <h3>SKILLS</h3>
         <div class="row">&nbsp;</div>
         <div class=" line-separator"></div>
@@ -150,8 +149,10 @@
 
     </div>
 
-    <!--end row container -->
+    <!--
+    end row container
     </div>
+-->
     <!--END SERVICES-->
 
     <!-- QUOTE SPACE-->
@@ -170,12 +171,12 @@
         <div class="row">&nbsp;</div>
         <div class="row">&nbsp;</div>
 
-        <div class="row">
+        <div class="row" id="port">
             <div class="row">&nbsp;</div>
             <div class="row">&nbsp;</div>
             <div class="row">&nbsp;</div>
             <div class="row">&nbsp;</div>
-            <h1 id="port">PORTFOLIO</h1></div>
+            <h1>PORTFOLIO</h1></div>
         <div class="row">&nbsp;</div>
         <!--  col 1-->
         <div class="column small-12 medium-6 large-4">
@@ -264,56 +265,67 @@
                     </li>
                 </ul>
             </div>
-            <h4>Let's work together</h4>
         </div>
+        <div class="text-center"><h4>Let's work together</h4></div>
 
 
         <!-- end scocial media col -->
         <!--contact form-->
         <div class="column small-centered small-10 large-8 ">
             <!--            <div class="wrap ">-->
-            <form action="https://formspree.io/kakuma4never@gmail.com " method="POST ">
-                <!--                <form action="mailer.php " method="POST ">-->
-                <div class="warp ">
+            <!--            <form action="https://formspree.io/kakuma4never@gmail.com " method="POST ">-->
+            <!--                <form action="mailer.php " method="POST ">-->
+            <div class="warp ">
 
 
 
-                    <form action="https://formspree.io/kakuma4never@gmail.com" method="POST">
-                        <!--                <form action="mailer.php" method="POST">-->
+                <form action="https://formspree.io/kakuma4never@gmail.com" method="POST">
+                    <!--                <form action="mailer.php" method="POST">-->
 
-                        <fieldset class="register-group">
-
-
-                            <input class="input" type="text" name="name" required placeholder="NAME">
+                    <fieldset class="register-group">
 
 
-                            <label>
-                                <input class="input" type="email" name="email" placeholder="Email address" required placeholder="EMAIL">
-                            </label>
-                            <textarea type="text" id="msg" name="comment" class="input" placeholder="MASSEGE" rows="5"></textarea>
+                        <input class="input" type="text" name="name" required placeholder="NAME">
 
+
+                        <label>
+                            <input class="input" type="email" name="email" placeholder="Email address" required placeholder="EMAIL">
+                        </label>
+                        <textarea type="text" id="msg" name="comment" class="input" placeholder="MASSEGE" rows="5"></textarea>
+
+<<<<<<< HEAD
                         </fieldset>
                         <button class="success button " type="submit" name="submit " value="Send "></button>
+=======
+                    </fieldset>
+                    <button class="success button " type="submit " name="submit " value="Send">Send</button>
+>>>>>>> origin/master
 
-                    </form>
+                </form>
 
-                </div>
-                <!-- end row -->
+            </div>
+
+
+            <!-- end row -->
+
+
+            <!-- end form col -->
+
+            <!-- end row -->
+            <!-- end contact -->
         </div>
-        <!-- end form col -->
-        <!--                </div>-->
-        <!-- end row -->
-        <!-- end contact -->
-    </div>
-    <!-- end container -->
+        <!-- end container -->
     </div>
     <!-- END CONTACT -->
     <div class="row ">&nbsp;</div>
+
 
     <script src="js/vendor/jquery.js "></script>
     <script src="js/vendor/what-input.js "></script>
     <script src="js/vendor/foundation.js "></script>
     <script src="js/app.js "></script>
+
+
 </body>
 
 </html>
