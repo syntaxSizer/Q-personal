@@ -84,8 +84,26 @@ body {
     }
     .navi {
         position: fixed;
-          background-color: #fff;
-
+        background-color: #fff;
     }
-
-
+    .A {
+        background-image: url(../images/code-revolution.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Aa {
+        padding: 250px;
+    }
+    .height {
+        height: 500px;
+    }
+    .B {
+        background-image: url(../images/E2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .C {
+        background-image: url(../images/Screenshot1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
