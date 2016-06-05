@@ -65,6 +65,8 @@
 .button--text-upper {
 	letter-spacing: 2px;
 	text-transform: uppercase;
+/*    margin-top: -50px;*/
+    float: right;
 }
 .button--text-thin {
 	font-weight: 300;
@@ -740,7 +742,7 @@
 /* Nina */
 .button--nina {
 	padding: 0 2em;
-	background: #7986cb;
+	background: #181A1B;
 	color: #fff;
 	overflow: hidden;
 	-webkit-transition: background-color 0.3s;
@@ -776,7 +778,7 @@
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .button--nina:hover {
-	background-color: #3f51b5;
+	background-color:#F74A4A;
 }
 .button--nina:hover::before {
 	opacity: 0;
