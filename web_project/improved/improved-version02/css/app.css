@@ -86,11 +86,6 @@ body {
         position: fixed;
         background-color: #fff;
     }
-    .A {
-        background-image: url(../images/code-revolution.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
     .Aa {
         padding: 250px;
     }
