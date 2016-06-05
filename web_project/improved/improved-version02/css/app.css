@@ -34,12 +34,13 @@ FOTTER
 ********************************************/
 
     footer {
-        height: 300px;
+        /*        height: 700px;*/
         background-color: #222;
-        padding: 80px 0px;
+        /*        padding: 80px 0px;*/
     }
-    footer a {
-        display: block;
+    footer h3 {
+        padding: 200px;
+        padding-bottom: 15px;
     }
     /*
 body {
@@ -66,16 +67,6 @@ body {
     .gr {
         background-color: green;
     }
-    <-- //.**//
-    *
-    /*//**
-8*/
-
-    .git {
-        float: right;
-    }
-    /*margin-tmargin-top: 0;*/
-
     #abt {
         background-color: #181A1B;
     }
@@ -85,6 +76,7 @@ body {
     .navi {
         position: fixed;
         background-color: #fff;
+        z-index: 1;
     }
     .Aa {
         padding: 250px;
@@ -101,4 +93,8 @@ body {
         background-image: url(../images/Screenshot1.png);
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    html,
+    body {
+        font-family: Roboto;
     }
