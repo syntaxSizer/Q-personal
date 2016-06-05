@@ -97,6 +97,7 @@ body {
             html,
             body {
                 font-family: Roboto;
+                color: #000000;
             }
             .msg {
                 height: 50%;
