@@ -1,146 +1,87 @@
-/******************************************
+    /******************************************
 GENERAL
 *******************************************/
 
-.wrap {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1100px;
-}
-
-/*******************************************
+    .wrap {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+    /*******************************************
 NAV
 ********************************************/
-
-
-/*******************************************
+    /*******************************************
 HERO
 ********************************************/
 
-.hero {
-    background-color: #999;
-    padding: 80px 0px;
-    height: 400px;
-}
-.button.success {
-    background-color: orange;
-}
-
-/*******************************************
+    .hero {
+        background-color: #999;
+        padding: 80px 0px;
+        height: 400px;
+    }
+    .button.success {
+        background-color: orange;
+    }
+    /*******************************************
 MAIN CONTENT
 ********************************************/
 
-.main {
-    padding: 80px 0px;
-}
-
-/*******************************************
+    .main {
+        padding: 80px 0px;
+    }
+    /*******************************************
 FOTTER
 ********************************************/
 
-footer {
-    height: 300px;
-    background-color: #222;
-    padding: 80px 0px;
-}
-footer a {
-    display: block;
-}
-
-/*
+    footer {
+        height: 300px;
+        background-color: #222;
+        padding: 80px 0px;
+    }
+    footer a {
+        display: block;
+    }
+    /*
 body {
     font-family: 'Open Sans';
 }
 */
 
-.yay p {
-    /*    padding-top: 150px;*/
-    font-size: 70px;
-    font-family: "Roboto";
-    line-height: 70px;
-    letter-spacing: 0;
-    font-weight: 800;
-}
-.row {
-    margin: 0;
-    padding: 0;
-    max-width: 1350px;
-}
-.cd-intro {
-    margin-left: 0;
-}
-.gr {
-    background-color: green;
-}
-<-- //.**//
-*
-/*//**
+    .yay p {
+        /*    padding-top: 150px;*/
+        font-size: 70px;
+        font-family: "Roboto";
+        line-height: 70px;
+        letter-spacing: 0;
+        font-weight: 800;
+    }
+    .row {
+        margin: 0;
+        padding: 0;
+        max-width: 1350px;
+    }
+    .cd-intro {
+        margin-left: 0;
+    }
+    .gr {
+        background-color: green;
+    }
+    <-- //.**//
+    *
+    /*//**
 8*/
 
-.git {
-    float: right;
-}
-margin-tmargin-top: 0;
-#abt {
-    background-color: #181A1B;
-}
-.hit {
-    height: 250px;
-}
-#abt {
-    background-color: #222;
-}
-img {}
-widthwidth: 12%;
-12 h2 {}
-colorcolor: #fff;
-img {}
-widthwidth: 20%;
-height:1220%;
-s 1010 ./. #hexagon {
-    width: 100px;
-    height: 55px;
-    background: red;
-    position: relative;
-}
-#hexagon:before {
-    content: "";
-    position: absolute;
-    top: -25px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 25px solid red;
-}
-#hexagon:after {
-    content: "";
-    position: absolute;
-    bottom: -25px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 25px solid red;
-}
-shap //s*shape*/rgreen-imageurl()../../images/../images/bg1.jpg../images/../ redred
-#diamond-narrow {
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-bottom: 70px solid red;
-    position: relative;
-    top: -50px;
-}
-#diamond-narrow:after {
-    content: '';
-    position: absolute;
-    left: -50px;
-    top: 70px;
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-top: 70px solid red;
-}
+    .git {
+        float: right;
+    }
+    /*margin-tmargin-top: 0;*/
+
+    #abt {
+        background-color: #181A1B;
+    }
+    .hit {
+        height: 250px;
+    }
+    .navi {
+        position: fixed;
+    }
