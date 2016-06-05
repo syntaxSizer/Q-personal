@@ -55,9 +55,9 @@ a {
 }
 
 .cd-intro {
-  width: 90%;
-  max-width: 768px;
-  text-align: center;
+/*width: 90%;*/
+/*max-width: 768px;*/
+  text-align: left;
 }
 
 .cd-intro {
@@ -81,7 +81,7 @@ a {
 @media only screen and (min-width: 768px) {
   .cd-headline {
     font-size: 4.4rem;
-    font-weight: 300;
+    font-weight: 800;
   }
 }
 @media only screen and (min-width: 1170px) {

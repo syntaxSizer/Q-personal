@@ -46,17 +46,15 @@ footer {
 footer a {
     display: block;
 }
-.background-01 {
-    background-color: #fff;
-}
+
+/*
 body {
     font-family: 'Open Sans';
 }
-.yay {
-    background-color: yellow;
-}
+*/
+
 .yay p {
-    padding-top: 150px;
+    /*    padding-top: 150px;*/
     font-size: 70px;
     font-family: "Roboto";
     line-height: 70px;
@@ -68,3 +66,10 @@ body {
     padding: 0;
     max-width: 1350px;
 }
+.cd-intro {
+    margin-left: 0;
+}
+.gr {
+    background-color: green;
+}
+<-- //.**//
