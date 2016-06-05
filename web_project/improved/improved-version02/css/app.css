@@ -70,3 +70,11 @@ footer{
 footer a{
 	display: block;
 }
+
+.background-01 {
+    background-color: #fff;
+}
+
+body{
+    font-family: 'Open Sans';
+}
