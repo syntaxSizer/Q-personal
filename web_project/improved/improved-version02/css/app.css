@@ -1,120 +1,184 @@
-            /******************************************
+/******************************************
 GENERAL
 *******************************************/
 
-            .wrap {
-                width: 90%;
-                margin: 0 auto;
-                max-width: 1100px;
-            }
-            /*******************************************
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+/*******************************************
 NAV
 ********************************************/
-            /*******************************************
+
+
+/*******************************************
 HERO
 ********************************************/
 
-            .hero {
-                background-color: #999;
-                padding: 80px 0px;
-                height: 400px;
-            }
-            .button.success {
-                background-color: orange;
-            }
-            /*******************************************
+.hero {
+    background-color: #999;
+    padding: 80px 0px;
+    height: 400px;
+}
+.button.success {
+    background-color: orange;
+}
+
+/*******************************************
 MAIN CONTENT
 ********************************************/
 
-            .main {
-                padding: 80px 0px;
-            }
-            /*******************************************
+.main {
+    padding: 80px 0px;
+}
+
+/*******************************************
 FOTTER
 ********************************************/
 
-            footer {
-                /*        height: 700px;*/
-                background-color: #222;
-                /*        padding: 80px 0px;*/
-            }
-            footer h3 {
-                padding: 200px;
-                padding-bottom: 15px;
-            }
-            /*
+footer {
+    /*        height: 700px;*/
+    background-color: #222;
+    /*        padding: 80px 0px;*/
+}
+footer h3 {
+    padding: 200px;
+    padding-bottom: 15px;
+}
+
+/*
 body {
     font-family: 'Open Sans';
 }
 */
 
-            .yay p {
-                /*    padding-top: 150px;*/
-                font-size: 70px;
-                font-family: "Roboto";
-                line-height: 70px;
-                letter-spacing: 0;
-                font-weight: 800;
-            }
-            .row {
-                margin: 0;
-                padding: 0;
-                max-width: 1350px;
-            }
-            .cd-intro {
-                margin-left: 0;
-            }
-            .gr {
-                background-color: green;
-            }
-            #abt {
-                background-color: #181A1B;
-            }
-            .hit {
-                height: 250px;
-            }
-            .navi {
-                position: fixed;
-                background-color: #fff;
-                z-index: 1;
-            }
-            .Aa {
-                padding: 250px;
-            }
-            .height {
-                height: 500px;
-            }
-            .B {
-                background-image: url(../images/E2.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            .C {
-                background-image: url(../images/Screenshot1.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            html,
-            body {
-                font-family: Roboto;
-                color: #000000;
-            }
-            .msg {
-                height: 50%;
-                overflow: hidden;
-            }
-            /* icons*/
+.yay h1 {
+    /*    padding-top: 150px;*/
+    font-size: 40px;
+    font-family: "Roboto";
+    line-height: 70px;
+    letter-spacing: 0;
+    font-weight: 800;
+}
+.row {
+    margin: 0;
+    padding: 0;
+    max-width: 1350px;
+}
+.cd-intro {
+    margin-left: 0;
+}
+.gr {
+    background-color: green;
+}
+#abt {
+    background-color: #181A1B;
+}
+.hit {
+    height: 250px;
+}
+.navi {
+    position: fixed;
+    background-color: #fff;
+    z-index: 4;
+}
+.height {
+    height: 500px;
+}
 
-            .img {
-                width: 20%;
-                height: 20%;
-            }
-            .cl-effect-12 a {
-                display: inline;
-            }
-            h6 {
-                padding-top: 30px;
-            }
-            .NAME p {
-                padding-top: 30px;
-            }
+}
+body {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 62.5%;
+}
+.msg {
+    height: 50%;
+    overflow: hidden;
+}
+
+/* icons*/
+.img {
+    width: 20%;
+    height: 20%;
+}
+.cl-effect-12 a {
+    display: inline;
+}
+h6 {
+    padding-top: 30px;
+}
+.NAME p {
+    padding-top: 30px;
+}
+@media (max-width:499px) {
+    .navi {
+        display: inline;
+    }
+}
+;
+@media (min-width:760px) {
+    /*Class name*/
+
+    .yay {
+        /*properties*/
+        font-size: 12px;
+    }
+}
+.square-rotate {
+    position: relative;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    margin-left: 40%;
+    margin-top: 18%;
+    content: "";
+    background-image: url(../images/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    /* Rotate */
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* Rotate Origin */
+
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+/*this code will reset marging and padding of all elements*/
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media (max-width:500px) {
+    /*Class name*/
+
+    p {
+        /*properties*/
+        font-size: 20px;
+        color: red;
+    }
+}
+@media (min-width:499px) {
+    /*Class name*/
+
+    h1 {
+        padding-left: 100px;
+        padding-top: 100px;
+        /*properties*/
+    }
+}
