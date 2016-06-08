@@ -38,10 +38,15 @@ MAIN CONTENT
 FOTTER
 ********************************************/
 
-footer {
+
+/*footer {
     /*        height: 700px;*/
-    background-color: #222;
-    /*        padding: 80px 0px;*/
+
+background-color: #222;
+
+/*        padding: 80px 0px;*/
+
+
 }
 footer h3 {
     padding: 200px;
@@ -53,9 +58,9 @@ body {
     font-family: 'Open Sans';
 }
 */
-
 .yay h1 {
     /*    padding-top: 150px;*/
+
     font-size: 40px;
     font-family: "Roboto";
     line-height: 70px;
@@ -81,8 +86,10 @@ body {
 }
 .navi {
     position: fixed;
-    background-color: #fff;
+    background-color: #222;
     z-index: 4;
+    width: 1350px;
+    ;
 }
 .height {
     height: 500px;
@@ -121,9 +128,9 @@ h6 {
 ;
 @media (min-width:760px) {
     /*Class name*/
-
     .yay {
         /*properties*/
+
         font-size: 12px;
     }
 }
@@ -141,14 +148,12 @@ h6 {
     background-position: center;
     position: absolute;
     /* Rotate */
-
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     /* Rotate Origin */
-
     -webkit-transform-origin: 0 100%;
     -moz-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
@@ -166,19 +171,19 @@ h6 {
 }
 @media (max-width:500px) {
     /*Class name*/
-
     p {
         /*properties*/
+
         font-size: 20px;
         color: red;
     }
 }
 @media (min-width:499px) {
     /*Class name*/
-
     h1 {
         padding-left: 100px;
         padding-top: 100px;
         /*properties*/
     }
 }
+ul {}
