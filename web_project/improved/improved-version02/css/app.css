@@ -120,19 +120,29 @@ h6 {
 .NAME p {
     padding-top: 30px;
 }
-@media (max-width:499px) {
-    .navi {
-        display: inline;
-    }
-}
-;
-@media (min-width:760px) {
+@media (max-width:499px) {}
+@media (max-width:600px) {
     /*Class name*/
     .yay {
         /*properties*/
 
-        font-size: 12px;
+        font-size: 35px;
+        margin-top: 80px;
     }
+}
+
+/*medium screen text*/
+@media (max-width:980px) {
+    /*Class name*/
+    .yay {
+        /*properties*/
+
+        font-size: 70px;
+        margin-top: 120px;
+    }
+}
+@media and (min-width: 767px) and {
+    .yay {}
 }
 .square-rotate {
     position: relative;
@@ -178,17 +188,6 @@ h6 {
         color: red;
     }
     .navi {
-        display: none;
-    }
-}
-@media (min-width:767px) {
-    /*Class name*/
-    h1 {
-        padding-left: 100px;
-        padding-top: 100px;
-        /*properties*/
-    }
-    #menu {
         display: none;
     }
 }
@@ -286,7 +285,7 @@ h6 {
     }
     #menu li {
         -webkit-transition: all 0.2s;
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 5px 0;
         color: #171717;
     }
@@ -297,10 +296,10 @@ h6 {
     }
     #menu a:hover {
         letter-spacing: 0.5em;
-        text-decoration: underline;
+        /*        text-decoration: underline;*/
     }
     #menu.open {
-        height: 270px;
+        height: 200px;
         width: 100%;
         background: #fff;
         border-bottom: 1px solid black;
@@ -308,4 +307,7 @@ h6 {
     .space {
         letter-spacing: 0;
     }
+}
+.bgb {
+    background-color: goldenrod;
 }
