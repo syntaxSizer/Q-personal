@@ -89,7 +89,7 @@ body {
 
 }
 body {
-    font-family: Roboto;
+    font-family: 'Raleway Sans';
     color: #000000;
     font-size: 62.5%;
 }
@@ -319,7 +319,8 @@ h6 {
         opacity:0;
     }
     .console-container {
-        font-family:"Raleway Sans",Roboto;
+        font-family:"Raleway Sans",
+        Roboto;
         font-size:90px;
         /*    text-align:center;*/
         height:12px;
