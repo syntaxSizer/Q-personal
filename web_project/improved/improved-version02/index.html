@@ -28,6 +28,25 @@
     <link rel="stylesheet" type="text/css" href="css-menu/componentlink.css" />
     <link rel="stylesheet" type="text/css" media only screen and (min-width: 768px) and (max-width: 980px) href="css/style_768.css">
 
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-75707264-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
 </head>
 
 
@@ -86,7 +105,7 @@
 
         </div>
 
-        <div class='console-container'>I<span id='text'></span>
+        <div class='console-container'>I <span id='text'></span>
             <div class='console-underscore' id='console'>&#124;</div>
         </div>
     </div>
@@ -268,11 +287,11 @@
             </label>
             </span>
 
-            <!--
-                    <button class="button button--nina button--text-thick button--text-upper button--size-s" data-text="Send Mail">
-                        <span>S</span><span>e</span><span>n</span><span>d</span> <span>M</span><span>a</span><span>i</span><span>l</span>
-                    </button>
--->
+
+            <button class="small-centered column button button--nina button--text-thick button--text-upper button--size-s" data-text="Send Mail">
+                <span>S</span><span>e</span><span>n</span><span>d</span> <span>M</span><span>a</span><span>i</span><span>l</span>
+            </button>
+
         </div>
     </div>
     </div>
