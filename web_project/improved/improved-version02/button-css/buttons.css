@@ -53,6 +53,7 @@
 /* Sizes */
 .button--size-s {
 	font-size: 14px;
+    width: 40%;
 }
 .button--size-m {
 	font-size: 16px;
@@ -751,11 +752,12 @@
 }
 .button--nina.button--inverted {
 	background: #fff;
-	color: #7986cb;
+/*	color: #7986cb;*/
+
 }
 .button--nina > span {
 	display: inline-block;
-	padding: 1em 0;
+padding: 1em 0;
 	opacity: 0;
 	color: #fff;
 	-webkit-transform: translate3d(0, -10px, 0);
