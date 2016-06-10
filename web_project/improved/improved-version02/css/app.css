@@ -72,10 +72,11 @@ body {
 }
 .abt {
     background-color: #181A1B;
-    margin-top: 300px;
+    margin-top: 210px;
 }
 .hit {
     height: 250px;
+
 }
 .navi {
     position: fixed;
@@ -298,7 +299,7 @@ h6 {
 .border {
     display: block;
     border: solid 1px #222;
-    margin-top: 300px;
+    margin-top: 210px;
 }
 .empty-height {
     height: 84px;
@@ -368,7 +369,7 @@ h6 {
 }
 .bgb {
     background-color: #181A1B;
-    margin-top:300px;
+    margin-top:210px;
     color: #fff;
 }
 .medianew {
@@ -385,4 +386,8 @@ h6 {
 }
 .medianew a:hover {
     color: #dd3740;
+}
+
+.b {
+    height:200px;
 }
