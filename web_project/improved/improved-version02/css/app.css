@@ -324,7 +324,7 @@ h6 {
         font-size:90px;
         /*    text-align:center;*/
         height:12px;
-        width:980px;
+        width:1080px;
         display:block;
         /*    position:absolute;*/
         color:#444444;
@@ -379,4 +379,19 @@ h6 {
     background-color: #181A1B;
     margin-top:300px;
     color: #fff;
+}
+.medianew {
+    list-style: none;
+    font-size: 60px;
+}
+.medianew a {
+    transition: 1s;
+    color: #1B1B1B;
+}
+.medianew li {
+    display: inline-block;
+    padding: 12px;
+}
+.medianew a:hover {
+    color: #dd3740;
 }
