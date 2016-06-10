@@ -127,6 +127,7 @@ figure.effect-lily h2,
 figure.effect-lily p {
 	-webkit-transform: translate3d(0,40px,0);
 	transform: translate3d(0,40px,0);
+    background-color: rgba(34, 34, 34, 0.65)
 }
 
 figure.effect-lily h2 {

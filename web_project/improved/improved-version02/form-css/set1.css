@@ -6,7 +6,7 @@
     /*	max-width: 350px;*/
     /*	width: calc(100% - 2em);*/
     vertical-align: top;
-    width: 100%;
+    /*    width: 100%;*/
 }
 .input__field {
     position: relative;
@@ -68,7 +68,7 @@
 
 .input--haruki {
     margin: 4em 1em 1em;
-    margin-top:20px;
+    margin-top: 20px;
 }
 .input__field--haruki {
     padding: 0.4em 0.25em;

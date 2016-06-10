@@ -97,15 +97,6 @@ body {
     height: 50%;
     overflow: hidden;
 }
-
-/* icons*/
-.img {
-    width: 20%;
-    height: 20%;
-}
-.cl-effect-12 a {
-    display: inline;
-}
 h6 {
     padding-top: 30px;
 }
