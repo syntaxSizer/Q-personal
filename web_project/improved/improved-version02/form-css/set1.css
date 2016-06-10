@@ -6,7 +6,7 @@
     /*	max-width: 350px;*/
     /*	width: calc(100% - 2em);*/
     vertical-align: top;
-    /*    width: 100%;*/
+        width: 100%;
 }
 .input__field {
     position: relative;
